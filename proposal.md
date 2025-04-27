@@ -16,8 +16,8 @@ We will use the MNIST dataset, available through Keras, to train and test the mo
 
 | Week | Task |
 |:---|:---|
-| 1 | Team meeting: Set project scope, create GitHub repository, install Keras in R, and plan CNN architecture. |
-| 2 | Load and preprocess MNIST dataset in R. Design initial CNN architecture with Keras (3 conv layers, 2 FC layers, 3x3 kernel, stride=2, padding=1). Research 2D visualization methods for CNN layers. |
-| 3 | Build CNN model with ReLU activation, Binary Cross Entropy loss, Stochastic Gradient Descent optimizer (optional), and Max Pooling. Create scripts to extract and visualize layer outputs in 2D. Test model on MNIST data. |
-| 4 | Improve visualization to show layer outputs for a user-drawn digit input. Add options to adjust parameters (e.g., filter size, number of filters). Document code and draft presentation. |
-| 5 | Finalize visualization tool and model. Test with sample inputs and collect feedback. Create presentation slides. Record demo video showing the prediction process. |
+| 1 | Team meeting: Set project scope, create GitHub repository, install Keras in R, and plan CNN architecture (Tuong, Tung, Hao). |
+| 2 | Load and preprocess MNIST dataset in R (Tuong). Design initial CNN architecture with Keras (3 conv layers, 2 FC layers, 3x3 kernel, stride=2, padding=1) (Tung). Research 2D visualization methods for CNN layers (Hao). |
+| 3 | Build CNN model with ReLU activation, Binary Cross Entropy loss, Stochastic Gradient Descent optimizer (optional), and Max Pooling (Tuong, Tung). Create scripts to extract and visualize layer outputs in 2D (Tuong). Test model on MNIST data (Hao). |
+| 4 | Improve visualization to show layer outputs for a user-drawn digit input (Tuong, Tung). Add options to adjust parameters (e.g., filter size, number of filters) (Tung). Document code and draft presentation (Hao). |
+| 5 | Finalize visualization tool and model (Tuong, Tung). Test with sample inputs and collect feedback (Tuong, Tung). Create presentation slides (Hao). Record demo video showing the prediction process (Tuong, Hao). |
