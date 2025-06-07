@@ -28,14 +28,14 @@ CNN <- nn_module(
 )
 
 model <- CNN()
-model_path <- "mnist_cnn_model.pth"
+model_path <- "mnist_cnn_model.pt"
 
 if (file.exists(model_path)) {
   model$load_state_dict(torch_load(model_path))
   model$eval()
   cat("Model loaded successfully!\n")
 } else {
-  cat("Error: mnist_cnn_model.pth not found. Please ensure the model file is in the correct directory.\n")
+  cat("Error: mnist_cnn_model.pt not found. Please ensure the model file is in the correct directory.\n")
 }
 
 image_to_tensor_transform <- function(image_path_or_magick_image) {
